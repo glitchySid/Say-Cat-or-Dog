@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Classification</title>
+</head>
+<body>
+    <h1>Drag and Drop an Image</h1>
+    <form action="" method="post">
+        <input type="file">
+        <input type="submit" value="Is It Car?">
+    </form>
+    
+    <p id="prediction"></p>
+    <p id="confidence"></p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
